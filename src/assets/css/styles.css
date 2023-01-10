@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.character-card {
+  width: 300px;
+  height: 100%;
+  box-shadow: 1px 2px 1px #111;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+form{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align:center;
+  margin:0px auto;
+  padding: 30px;
+
+}
+
+.error-card{
+  font-size: 50px;
+  text-align:center;
+}
